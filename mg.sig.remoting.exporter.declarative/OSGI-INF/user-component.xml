@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="startup" deactivate="shutdown" name="mg.sig.remoting.exporter.declarative.userservice">
+   <implementation class="mg.sig.remoting.exporter.declarative.testservicereceived.TestDeclarativeServiceImpl"/>
+   <reference bind="setUserService" cardinality="1..1" interface="mg.sig.services.intf.user.IUserService" name="userService" policy="static" unbind="clearUserService"/>
+</scr:component>

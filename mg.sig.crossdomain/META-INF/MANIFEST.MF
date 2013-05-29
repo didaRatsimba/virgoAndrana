@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Crossdomain
+Bundle-SymbolicName: mg.sig.crossdomain
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: mg.sig.crossdomain.internal.Activator
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: mg.sig.crossdomain.entities,
+ mg.sig.crossdomain.enums
