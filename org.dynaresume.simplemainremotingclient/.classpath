@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/simpleclient/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/com.springsource.slf4j.api-1.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/com.springsource.slf4j.log4j-1.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/com.springsource.slf4j.org.apache.commons.logging-1.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/log4j.osgi-1.2.15-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/org.springframework.aop-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/org.springframework.beans-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/org.springframework.context-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/org.springframework.core-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="D:/simpleclient/org.springframework.web-2.5.6.A.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mg.sig.crossdomain"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mg.sig.services.intf"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/mg.sig.remoting.exporter.declarative"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

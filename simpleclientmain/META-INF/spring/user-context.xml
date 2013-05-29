@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+<!-- 	<bean id="userService"
+		class="org.springframework.remoting.httpinvoker.HttpInvokerProxyFactoryBean">
+		<property name="serviceUrl">
+			 <value>http://localhost:8080/dynaresume-server/remoting/UserService
+			</value>
+			<value>http://localhost:8080/mg.dida.test.serv.impl/userService</value>
+		</property>
+		<property name="serviceInterface">
+			<value>mg.sig.services.intf.user.IUserService</value>
+		</property>
+	</bean> -->
+
+</beans>

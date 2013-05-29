@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Importer Http
+Bundle-SymbolicName: mg.sig.remoting.importer.http
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: mg.sig.remoting.importer.http.Activator
+Import-Package: mg.sig.crossdomain.entities,
+ mg.sig.services.intf.user,
+ org.aopalliance.aop;version="1.0.0",
+ org.osgi.framework;version="1.3.0",
+ org.springframework.aop;version="3.1.0.RELEASE",
+ org.springframework.aop.framework;version="3.1.0.RELEASE",
+ org.springframework.beans.factory.config;version="3.1.0.RELEASE",
+ org.springframework.remoting.httpinvoker;version="3.1.0.RELEASE",
+ org.springframework.remoting.support;version="3.1.0.RELEASE"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
