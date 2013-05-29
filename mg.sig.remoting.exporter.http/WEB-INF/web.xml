@@ -13,7 +13,12 @@
 		<init-param>
 			<param-name>contextClass</param-name>
 			<!-- <param-value>mg.sig.own.bundle.context.ownbundle.OwnSpringBundleContext</param-value> -->
-			<param-value>org.springframework.osgi.web.context.support.OsgiBundleXmlWebApplicationContext</param-value>
+			<!-- <param-value>org.springframework.osgi.web.context.support.OsgiBundleXmlWebApplicationContext</param-value> -->
+
+			<!-- selon recommandations depuis http://forum.springsource.org/showthread.php?76664-bundleContext-not-set-error
+			cf aussi  : http://git.springsource.org/virgo/web/blobs/34a87e1f8dd3edf907080d6a5946e6e941a105b9/com.springsource.server.web.dm/src/main/java/com/springsource/server/web/dm/ServerOsgiBundleXmlWebApplicationContext.java
+			et http://static.springsource.com/projects/dm-server/1.0.x/programmer-guide/html/ch05s02.html -->
+			<param-value>com.springsource.server.web.dm.ServerOsgiBundleXmlWebApplicationContext</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
